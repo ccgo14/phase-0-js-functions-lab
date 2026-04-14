@@ -1,7 +1,7 @@
 // 1. calculateTax
 // Goal: Accept a number, return tax (let's assume a standard 15% if the lab doesn't specify, or adjust the rate)
 function calculateTax(amount) {
-    const taxRate = 0.15; 
+    const taxRate = 0.1; // Changed from 0.15 to 0.1 to match Jest expectations
     return amount * taxRate;
 }
 
